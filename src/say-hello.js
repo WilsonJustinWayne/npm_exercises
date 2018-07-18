@@ -1,0 +1,1 @@
+export const sayHello = name => console.log(`[insert nice message here] ${name}`);

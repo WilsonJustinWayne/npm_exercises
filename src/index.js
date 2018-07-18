@@ -1,6 +1,8 @@
 const $ = require('jquery');
-const sayHello = () => {
+import {sayHello} from "./say-hello.js" ;
+const sayHi = () => {
     console.log("hello");
     $('body').css("background-color", "black");
 };
-sayHello();
+sayHello("yo mama");
+sayHi();
